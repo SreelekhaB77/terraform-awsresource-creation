@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "bucket_name" {
-  default = "terraform-state-bucket-yourname"  # Must be globally unique
+  default = "terraform-state-bucket"  # Must be globally unique
 }
 
 variable "dynamodb_table" {
